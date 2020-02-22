@@ -1,4 +1,5 @@
 import React from "react";
+import './MemberList.css';
 
 const MemberList = props => {
   return (
@@ -7,7 +8,7 @@ const MemberList = props => {
         <div className="team-member" key={teamMember.id}>
             <h2>{teamMember.name}</h2>
             <h3>{teamMember.email}</h3>
-            <h4>{teamMember.role}</h4>
+            <h3>{teamMember.role}</h3>
         </div>
       ))}
     </div>
