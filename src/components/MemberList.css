@@ -1,0 +1,19 @@
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: auto;
+    width: 50%;
+    margin: 20px;
+}
+
+.team-member {
+    background: #ffff88;
+    color: salmon;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+    width: auto;
+    padding: 10px;
+    margin: 16px auto;
+    text-align: left;
+}
